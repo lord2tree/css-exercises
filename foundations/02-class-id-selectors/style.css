@@ -1,0 +1,19 @@
+.odd {
+  background-color: lightpink;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#secondEl {
+  color: blue;
+  font-size: 36px;
+}
+
+#thirdEl {
+  font-size: 24px;
+}
+
+#fourthEl {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: 700;
+}
