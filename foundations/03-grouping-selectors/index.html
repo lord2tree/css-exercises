@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grouping Selectors</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #firstEl,
+      #secondEl {
+        font-size: 28px;
+        font-family: Helvetica, "Times New Roman", sans-serif;
+      }
+      #firstEl {
+        background-color: black;
+        color: white;
+      }
+      #secondEl {
+        background-color: yellow;
+      }
+    </style>
   </head>
   <body>
-    <button>Click Me!</button>
-    <button>No, Click Me!</button>
+    <button id="firstEl">Click Me!</button>
+    <button id="secondEl">No, Click Me!</button>
   </body>
 </html>
